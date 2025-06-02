@@ -13,6 +13,7 @@ Othello is a classic strategy board game where two players take turns placing di
 - Valid move detection
 - Disc flipping
 - Win condition check
+- An IA player
 
 ---
 
@@ -38,11 +39,11 @@ Othello is a classic strategy board game where two players take turns placing di
   │ ├── case.py # Case class: individual cell representation 
   │ ├── pawn.py # Pawn class: black/white disc logic 
   │ ├── player.py # Player class: player states 
-  │ └── noPawnError.py # Custom error for missing pawns 
+  │ └── playerIA.py # PlayerIA class: define IA moves
   │ 
   ├── view/ 
   │ ├── __init__.py 
-  │ ├── coordinates.py # Coordinate helper/conversion 
+  │ ├── coordinates.py # Coordinate helper 
   │ └── display.py # Display logic (print board, status) 
   │ 
   ├── main.py # Game entry point 
@@ -55,7 +56,7 @@ Othello is a classic strategy board game where two players take turns placing di
 ## 🛠️ Setup
 
 <pre lang="markdown">
-git clone https://github.com/your-username/othello.git
+git clone https://github.com/DidiCi/Othello.git
 cd othello
 python main.py
 </pre>
