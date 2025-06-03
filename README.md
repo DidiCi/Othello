@@ -15,6 +15,8 @@ Othello is a classic strategy board game where two players take turns placing di
 - Win condition check
 - An IA player
 
+Project duration: 3 days
+
 ---
 
 ## 🧠 Goals
